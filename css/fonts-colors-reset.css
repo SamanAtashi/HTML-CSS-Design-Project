@@ -1,0 +1,97 @@
+/* ! -----------------------------RESET----------------------------- */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	border: 0;
+	font: inherit;
+}
+
+/* ! -----------------------------FONTS----------------------------- */
+
+@font-face {
+	font-family: 'Gotham';
+	src: local('gotham_rounded_light'),
+		url(../fonts/Gotham-Rounded-Light.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Gotham Bold';
+	src: local('gotham_bold'),
+		url(../fonts/Gotham-Bold.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'hel-1';
+	src: local('hel-1'), url(../fonts/hel-1.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'hel-2';
+	src: local('hel-2'), url(../fonts/hel-2.ttf) format('opentype');
+}
+
+@font-face {
+	font-family: 'hel-3';
+	src: local('hel-3'), url(../fonts/hel-3.ttf) format('opentype');
+}
+
+@font-face {
+	/* ! NOT BEAUTIFULL */
+	font-family: 'hel-4';
+	src: local('hel-4'), url(../fonts/hel-4.ttf) format('opentype');
+}
+
+@font-face {
+	font-family: 'hel-5';
+	src: local('hel-5'), url(../fonts/hel-5.ttf) format('opentype');
+}
+
+/* ! -----------------------------COLORS----------------------------- */
+
+/* that red */
+.text-red {
+	color: #d35266;
+}
+
+.bg-red {
+	background-color: #d35266;
+}
+
+/* that grey */
+.text-gray {
+	color: #888;
+}
+
+.bg-gray {
+	background-color: #888;
+}
+
+/* that black */
+.text-black {
+	color: #383838;
+}
+
+.bg-black {
+	background-color: #383838;
+}
+
+/* ! -----------------------------BASIC Commands----------------------------- */
+
+.d-block {
+	display: block;
+}
+
+.d-inline {
+	display: inline;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-grid {
+	display: grid;
+}
