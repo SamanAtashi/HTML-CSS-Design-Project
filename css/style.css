@@ -1,4 +1,4 @@
-/*  -----------------------------HEADER----------------------------- */
+/*?  -----------------------------HEADER----------------------------- */
 
 header nav {
 	padding-right: 5%;
@@ -32,6 +32,23 @@ header nav {
 	padding-left: 0.5rem;
 	text-align: center;
 	border-radius: 0.1rem;
+}
+
+/*?  ------------------------------Main content------------------------------ */
+
+/*?  ---------------------------------Footer--------------------------------- */
+
+.f-row-1-part-1 p {
+	text-align: center;
+}
+
+.fa-building-footer {
+	font-size: 3rem;
+}
+
+.footer-logo-text {
+	font-size: 1.5rem;
+	padding-left: 0.3rem;
 }
 
 /* ! -----------------------------Media Queries----------------------------- */
