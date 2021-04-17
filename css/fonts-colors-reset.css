@@ -7,6 +7,7 @@
 	text-decoration: none;
 	border: 0;
 	font: inherit;
+	color: inherit;
 }
 button {
 	cursor: pointer;
@@ -120,6 +121,22 @@ button {
 
 /* ! -----------------------------BASIC Commands----------------------------- */
 
+.border-b {
+	border-bottom: 1px solid;
+}
+
+.border-t {
+	border-top: 1px solid;
+}
+
+.border-l {
+	border-left: 1px solid;
+}
+
+.border-r {
+	border-right: 1px solid;
+}
+
 .d-none {
 	display: none;
 }
@@ -134,6 +151,10 @@ button {
 
 .d-flex {
 	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
 }
 
 .direct-row {
