@@ -51,6 +51,12 @@ header nav {
 	padding-left: 0.3rem;
 }
 
+select {
+	text-align: center;
+	text-align-last: center;
+	-moz-text-align-last: center;
+}
+
 /* ! -----------------------------Media Queries----------------------------- */
 @media only screen and (max-width: 350px) {
 	header nav {
@@ -68,6 +74,10 @@ header nav {
 	}
 
 	.f-cate {
+		flex-direction: column;
+	}
+
+	.f-row-1-part-3 div {
 		flex-direction: column;
 	}
 }
