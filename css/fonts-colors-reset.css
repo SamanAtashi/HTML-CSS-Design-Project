@@ -178,6 +178,10 @@ img {
 	justify-content: center;
 }
 
+.jcfs {
+	justify-content: flex-start;
+}
+
 .jcsb {
 	justify-content: space-between;
 }
@@ -194,6 +198,10 @@ img {
 	align-items: center;
 }
 
+.aifs {
+	align-items: flex-start;
+}
+
 .d-grid {
 	display: grid;
 }
@@ -206,8 +214,16 @@ img {
 	width: 30%;
 }
 
+.w-40 {
+	width: 40%;
+}
+
 .w-50 {
 	width: 50%;
+}
+
+.w-60 {
+	width: 60%;
 }
 
 .w-70 {
