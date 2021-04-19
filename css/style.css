@@ -34,6 +34,18 @@ header nav {
 	border-radius: 0.1rem;
 }
 
+/* ?  ------------------------------HOT ADS------------------------------ */
+.hot-ads {
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+.hot-ads h4 {
+	font-size: 1.2rem;
+}
+
 /* ?  ------------------------------Main content------------------------------ */
 main {
 	padding-right: 5%;
@@ -169,6 +181,29 @@ select {
 
 	.herder-links-item-4 {
 		display: inherit;
+	}
+
+	/* HOT ADS <----------------------- */
+
+	.hot-ads-content {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.hot-ads-pic {
+		width: 32%;
+		max-height: 100%;
+		min-height: 100%;
+	}
+
+	.hot-ads-pic {
+		min-height: 100%;
+		max-height: 100%;
+	}
+
+	.hot-ads-texts {
+		width: 65%;
+		padding: 0;
 	}
 
 	/* Main <----------------------- */
