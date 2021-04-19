@@ -1,6 +1,9 @@
 /* ?  -----------------------------HEADER----------------------------- */
 
-header nav {
+header nav,
+.search,
+.hot-ads,
+main {
 	padding-right: 5%;
 	padding-left: 5%;
 	padding-top: 2.5%;
@@ -34,25 +37,44 @@ header nav {
 	border-radius: 0.1rem;
 }
 
-/* ?  ------------------------------HOT ADS------------------------------ */
-.hot-ads {
-	padding-right: 5%;
-	padding-left: 5%;
-	padding-top: 2.5%;
-	padding-bottom: 2.5%;
+/* ?  ------------------------------Search------------------------------ */
+
+.search {
+	position: relative;
 }
+
+.search-logo {
+	font-size: 9rem;
+	position: absolute;
+	top: 10%;
+	bottom: 10%;
+}
+
+.search-row-1,
+.search-row-2 {
+	z-index: 20;
+	position: relative;
+}
+
+.search-logo-text {
+	font-size: 3rem;
+}
+
+.search-btn {
+	border-radius: 5px;
+}
+
+.padd-5 {
+	padding-left: 5%;
+}
+
+/* ?  ------------------------------HOT ADS------------------------------ */
 
 .hot-ads h4 {
 	font-size: 1.2rem;
 }
 
 /* ?  ------------------------------Main content------------------------------ */
-main {
-	padding-right: 5%;
-	padding-left: 5%;
-	padding-top: 2.5%;
-	padding-bottom: 2.5%;
-}
 
 .fa-plus-square,
 .fa-couch {
@@ -181,6 +203,29 @@ select {
 
 	.herder-links-item-4 {
 		display: inherit;
+	}
+
+	/* search <----------------------- */
+	.search-row-2 {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.search-row-2-1,
+	.search-row-2-2,
+	.search-row-2-3 {
+		padding-left: 2%;
+		margin-bottom: 0;
+		width: 29%;
+	}
+
+	.search-row-2-4 {
+		width: 10%;
+	}
+
+	.search-logo {
+		font-size: 8rem;
 	}
 
 	/* HOT ADS <----------------------- */
