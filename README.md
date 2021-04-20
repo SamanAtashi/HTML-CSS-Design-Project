@@ -44,3 +44,5 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+## Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
