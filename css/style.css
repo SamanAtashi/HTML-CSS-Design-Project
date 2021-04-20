@@ -127,18 +127,8 @@ select {
 
 /* ! -----------------------------Media Queries----------------------------- */
 @media only screen and (max-width: 350px) {
-	header nav {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.header-links ul {
-		margin-top: 2%;
-		border-top: 1px solid gray;
-		padding-top: 3%;
-		align-items: center;
-		flex-direction: column;
+	.header-logo-text {
+		font-size: 0.9rem;
 	}
 
 	.f-cate {
