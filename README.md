@@ -17,6 +17,18 @@ This project is actually built with plain CSS and HTML.
 
 [Live Demo Link](https://samanatashi.github.io/HTML-CSS-Design-Project/)
 
+## Getting Started
+
+1. Clone the project
+   `$ git clone https://github.com/SamanAtashi/HTML-CSS-Design-Project.git`
+2. Then open index.html in your browser
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+Just ensure you have one or more web browsers
+
 ## 👤 **Saman**
 
 - GitHub: [@SamanAtashi](https://github.com/SamanAtashi)
